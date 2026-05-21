@@ -75,3 +75,7 @@ Project markdown_to_pdf is complete. All acceptance criteria verified and tests 
 ## Turn 1 — Manager (2026-05-21 07:00 UTC)
 
 Project markdown_to_pdf is complete. All acceptance criteria met and tests passed. Updating project.json to status='complete' and finalizing README.md. I will look for parked projects to resume in the next turn.
+
+## Turn 2 — Manager (2026-05-21 07:01 UTC)
+
+Marking markdown_to_pdf project as complete because all acceptance criteria are met and tests passed. Updating project.json and README.md.
