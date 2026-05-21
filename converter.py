@@ -1,11 +1,17 @@
 import markdown
 from fpdf import FPDF
 
-def convert_md_to_html(md_text):
-    return markdown.markdown(md_text)
+def markdown_to_html(markdown_text):
+    html = markdown.markdown(markdown_text)
+    return html
 
-def html_to_pdf(html_text, output_path):
+def html_to_pdf(html, output_path):
     pdf = FPDF()
-    pdf.add_page()
-    pdf.html(html_text, x=0, y=0)
-    pdf.output(dest='F', filename=output_path)
+    pdf.add_html(html)
+    pdf.output(output_path)
+
+def convert_markdown_to_pdf(input_path, output_path):
+    with open(input_path, 'r') as f:
+        markdown_text = f.read()
+    html = markdown_to_html(markdown_text)
+    html_to_pdf(html, output_path)

@@ -39,3 +39,7 @@ Retrying with a robust approach using markdown and fpdf2. I will search for the 
 ## Turn 27 — Steward (2026-05-21 06:22 UTC)
 
 
+
+## Turn 28 — Craft (2026-05-21 06:26 UTC)
+
+Taking a completely different approach: switching from 'html2pdf' to 'fpdf' (fpypdf) which is pure Python and easier to install. Also creating '__init__.py' to ensure package imports work correctly, and rewriting 'config.py', 'converter.py', and 'acceptance_tests.py' with proper mocking to avoid system dependencies.
