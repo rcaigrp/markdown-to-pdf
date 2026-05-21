@@ -1,0 +1,10 @@
+{
+  "goal": "Create a tool to convert Markdown strings to HTML strings.",
+  "acceptance_criteria": [
+    "markdown_to_pdf module exists and can be imported",
+    "convert function takes a string and returns an HTML string"
+  ],
+  "meeting_budget": 3,
+  "meetings_held": 0,
+  "status": "active"
+}
