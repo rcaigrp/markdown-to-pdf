@@ -5,6 +5,6 @@
     "convert function takes a string and returns an HTML string"
   ],
   "meeting_budget": 3,
-  "meetings_held": 2,
-  "status": "active"
+  "meetings_held": 3,
+  "status": "complete"
 }
