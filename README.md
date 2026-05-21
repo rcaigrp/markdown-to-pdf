@@ -11,3 +11,13 @@ Convert Markdown content to HTML strings.
 
 ## Status
 ✅ COMPLETE - Sprint goal achieved. All acceptance criteria met. Tests passed.
+
+## Deliverables
+- `markdown_to_pdf.py`: Main module implementation.
+- `acceptance_tests.py`: Test suite validating all criteria.
+
+## Known Bugs
+- None.
+
+## Next Steps
+- Project closed. Awaiting new project assignment.
