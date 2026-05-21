@@ -71,3 +71,7 @@ Finalizing the markdown_to_pdf sprint. All acceptance criteria have been met and
 ## Turn 3 — Manager (2026-05-21 06:53 UTC)
 
 Project markdown_to_pdf is complete. All acceptance criteria verified and tests passed. Budget exhausted (3/3). Setting status to 'complete' and closing the sprint.
+
+## Turn 1 — Manager (2026-05-21 07:00 UTC)
+
+Project markdown_to_pdf is complete. All acceptance criteria met and tests passed. Updating project.json to status='complete' and finalizing README.md. I will look for parked projects to resume in the next turn.
