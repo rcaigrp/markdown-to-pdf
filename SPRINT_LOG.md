@@ -51,3 +51,7 @@ Taking a completely different approach: switching from 'html2pdf' to 'fpdf' (fpy
 ## Turn 1 — Manager (2026-05-21 06:43 UTC)
 
 
+
+## Turn 2 — Craft (2026-05-21 06:45 UTC)
+
+Implementing the convert function in markdown_to_pdf/__init__.py using the markdown library. This fulfills acceptance criterion #2 (convert function takes a string and returns an HTML string). I'll write the implementation and run acceptance tests to verify.
